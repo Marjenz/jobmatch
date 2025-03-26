@@ -1,0 +1,29 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Mario",
+        "surname": "Rossi",
+        "email": "mario.rossi@example.com",
+        "password": "password1",
+        "job": "Sviluppatore Web"
+      },
+      {
+        "id": 2,
+        "name": "Giada",
+        "surname": "Pappalardo",
+        "email": "pappalardo@example.com",
+        "password": "password2",
+        "job": "Sviluppatore Web"
+      },
+      {
+        "id": 3,
+        "name": "Giada",
+        "surname": "Pappalardo",
+        "email": "pappalardo@example.com",
+        "password": "password2",
+        "job": "Sviluppatore Web"
+      }
+    ]
+  }
+  

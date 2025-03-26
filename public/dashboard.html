@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Azienda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/public/css/dashboard.css">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+        <a href="index.html" class="text-blue-500 font-bold">← Home</a>
+        <h1 class="text-xl font-bold">Dashboard Azienda</h1>
+        <button id="logout-btn" class="bg-red-500 text-white px-4 py-2 rounded">Logout</button>
+    </nav>
+
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Menù</h2>
+            <a href="#">📄 Offerte di Lavoro</a>
+            <a href="#">📊 Statistiche</a>
+            <a href="#">⚙ Impostazioni</a>
+        </aside>
+
+        <!-- Contenuto principale -->
+        <main class="main-content">
+            <div class="header">
+                <h1>Benvenuto nella tua Dashboard</h1>
+                <button class="add-job-btn">+ Aggiungi Offerta</button>
+            </div>
+
+            <div class="job-list">
+                <div class="job-card">
+                    <h3>Programmatore Java</h3>
+                    <div class="actions">
+                        <button class="edit-btn">Modifica</button>
+                        <button class="delete-btn">Elimina</button>
+                    </div>
+                </div>
+                <div class="job-card">
+                    <h3>Data Analyst</h3>
+                    <div class="actions">
+                        <button class="edit-btn">Modifica</button>
+                        <button class="delete-btn">Elimina</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Controllo se l'utente è loggato, altrimenti lo rimanda al login
+        if (!localStorage.getItem("token")) {
+            window.location.href = "index.html";
+        }
+
+        // Logout
+        document.getElementById("logout-btn").addEventListener("click", () => {
+            localStorage.removeItem("token"); // Rimuove il token
+            window.location.href = "index.html"; // Torna alla pagina di login
+        });
+    </script>
+
+</body>
+</html>
