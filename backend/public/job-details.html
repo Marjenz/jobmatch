@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dettagli Lavoro</title>
+    <link rel="stylesheet" href="css/job-details.css">
+</head>
+<body>
+    <header>
+        <h1>Dettagli Lavoro</h1>
+    </header>
+    <main>
+        <div id="job-details">
+            <h2 id="job-title"></h2>
+            <p><strong>Azienda:</strong> <span id="job-company"></span></p>
+            <p><strong>Descrizione:</strong> <span id="job-description"></span></p>
+            <!-- Aggiungi i nuovi campi -->
+            <p><strong>Mansione:</strong> <span id="job-mansione"></span></p>
+            <p><strong>Welfare:</strong> <span id="job-welfare"></span></p>
+        </div>
+        <button id="back-btn">Torna ai lavori</button>
+    </main>
+    <script>
+        // Recupera l'ID del lavoro dall'URL
+        const params = new URLSearchParams(window.location.search);
+        const jobId = params.get("id");
+
+        if (jobId) {
+            // Recupera i dettagli del lavoro dall'API
+            fetch(`/jobs/${jobId}`)
+                // .then(response => response.json())
+                // .then(data => {
+                //     document.getElementById("job-title").textContent = data.title;
+                //     document.getElementById("job-company").textContent = data.company;
+                //     document.getElementById("job-description").textContent = data.description;
+                // })
+                // .catch(error => console.error("Errore:", error));
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("job-title").textContent = data.title;
+                    document.getElementById("job-company").textContent = data.company;
+                    document.getElementById("job-description").textContent = data.description;
+                    // Aggiungi i dati per Mansione e Welfare
+                    document.getElementById("job-mansione").textContent = data.tasks || "Non disponibile";
+                    document.getElementById("job-welfare").textContent = data.welfare || "Non disponibile";
+                })
+                .catch(error => console.error("Errore:", error));  
+        } else {
+            document.getElementById("job-details").textContent = "Errore: ID lavoro non specificato.";
+        }
+
+        // Torna alla pagina dei lavori
+        document.getElementById("back-btn").addEventListener("click", () => {
+            window.location.href = "/jobs.html";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Definisce la codifica dei caratteri -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Rende la pagina responsive -->
+    <title>JobMatch - Find Your Perfect Job</title> <!-- Titolo della pagina -->
+    <link rel="stylesheet" href="styles.css"> <!-- Collegamento a un file CSS esterno -->
+    <style>
+        /* Stili di base per il corpo della pagina */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: linear-gradient(135deg, #2dafc9, #a2b7ef);
+            color: #333;
+        }
+        
+        /* Stili per l'header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Stili per il logo */
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #6b6bff;
+        }
+        
+        /* Stili per il pulsante di login */
+        .login-btn {
+            background: #6b6bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        /* Stili per il titolo principale */
+        h1 {
+            font-size: 2.5em;
+            margin-top: 20px;
+        }
+        
+        /* Stili per il sottotitolo */
+        .subtitle {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        
+        /* Contenitore delle card */
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px;
+        }
+        
+        /* Stili per le card */
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        
+        /* Effetto di ingrandimento al passaggio del mouse */
+        .card:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Stili per i pulsanti di call-to-action */
+        .cta-btn {
+            background: #6b6bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        
+        /* Cambia colore al passaggio del mouse */
+        .cta-btn:hover {
+            background: #84d3e3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">🚀 JobMatch</div> <!-- Logo dell'app -->
+        <a href="login.html" class="login-btn">Accedi</a> <!-- Pulsante di login con reindirizzamento -->
+    </header>
+    <main>
+        <h1>Collegare il talento con le opportunità</h1> <!-- Titolo principale -->
+        <p class="subtitle">Una piattaforma intelligente che collega i candidati giusti con le migliori aziende in modo coinvolgente.</p> <!-- Sottotitolo -->
+        <div class="cards-container"> <!-- Contenitore delle card -->
+            <div class="card candidate"> <!-- Card per i candidati -->
+                <h2>Per i candidati</h2> <!-- Titolo della card -->
+                <p>Esplora le opportunità di lavoro senza sforzo. Scorri, abbina e candidati in pochi secondi.</p> <!-- Descrizione -->
+                <a href="login.html" class="cta-btn">Inizia →</a> <!-- Pulsante di azione con reindirizzamento -->
+            </div>
+            <div class="card company"> <!-- Card per le aziende -->
+                <h2>Per le aziende</h2> <!-- Titolo della card -->
+                <p>Trova i migliori talenti rapidamente. Pubblica offerte di lavoro, connettiti con i candidati e assumi con facilità.</p> <!-- Descrizione -->
+                <a href="login.html" class="cta-btn">Inizia →</a> <!-- Pulsante di azione con reindirizzamento -->
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+

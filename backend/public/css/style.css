@@ -1,0 +1,115 @@
+/* Stili generali per la pagina di login */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2dafc9, #a2b7ef);
+    font-family: 'Arial', sans-serif;
+    color: white;
+    position: relative;
+}
+
+/* Sezione logo/nome */
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Link al logo */
+.logo-link {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Effetto hover sul logo */
+.logo-link:hover {
+    color: #583eea;
+    /*text-decoration: underline;*/
+}
+
+/* Contenitore del login */
+.login-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+}
+
+/* Titolo */
+.login-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Sottotitolo */
+.login-subtitle {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Campi input */
+.login-input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+/* Effetto focus sugli input */
+.login-input:focus {
+    border-color: #6b6bff;
+    box-shadow: 0 0 5px rgba(107, 107, 255, 0.5);
+    outline: none;
+}
+
+/* Pulsante di login */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background: #6b6bff;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Effetto hover sul pulsante */
+.login-button:hover {
+    background: #5a5aff;
+}
+
+/* Testo di registrazione */
+.register-text {
+    font-size: 0.9em;
+    margin-top: 15px;
+    color: #555;
+}
+
+/* Link di registrazione */
+.register-link {
+    color: #6b6bff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Effetto hover sul link */
+.register-link:hover {
+    text-decoration: underline;
+}

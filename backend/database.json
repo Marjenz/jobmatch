@@ -1,29 +1,547 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Mario",
-        "surname": "Rossi",
-        "email": "mario.rossi@example.com",
-        "password": "password1",
-        "job": "Sviluppatore Web"
-      },
-      {
-        "id": 2,
-        "name": "Giada",
-        "surname": "Pappalardo",
-        "email": "pappalardo@example.com",
-        "password": "password2",
-        "job": "Sviluppatore Web"
-      },
-      {
-        "id": 3,
-        "name": "Giada",
-        "surname": "Pappalardo",
-        "email": "pappalardo@example.com",
-        "password": "password2",
-        "job": "Sviluppatore Web"
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": 1,
+      "name": "Mario",
+      "surname": "Rossi",
+      "email": "mario.rossi@example.com",
+      "password": "password1",
+      "job": "Sviluppatore Web",
+      "token": "user-1743788025035",
+      "acceptedJobs": [
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS"
+        },
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS",
+          "company": "Azienda XYZ",
+          "company-details": "Tech Solutions, un'agenzia innovativa nel settore dello Software Development, è alla ricerca di un/a Sviluppatore Frontend altamente motivato e creativo per unirsi al loro team dinamico con sede a Milano. Se sei appassionato di tecnologia e desideri lavorare in un ambiente stimolante, questa potrebbe essere l'opportunità ideale per te!",
+          "tasks": [
+            "Come sviluppatore software, sarai coinvolto nella progettazione e implementazione di applicazioni scalabili e performanti. Collaborerai strettamente con i team di prodotto e design per tradurre le esigenze aziendali in soluzioni tecnologiche. Ti occuperai della scrittura di codice pulito e ben strutturato, implementando nuove funzionalità, risolvendo bug e ottimizzando le performance. Gestirai l'integrazione di nuove tecnologie, supportando l'intero ciclo di vita del software, dalla fase di sviluppo alla distribuzione. Inoltre, parteciperai alla definizione delle best practices e contribuirai all'evoluzione continua del prodotto, sempre con un focus sulla qualità del codice e sull'esperienza utente finale."
+          ],
+          "welfare": [
+            "Assicurazione sanitaria completa",
+            "Bonus annuale per la formazione professionale",
+            "Flessibilità lavorativa con possibilità di smart working",
+            "Piano pensionistico integrativo"
+          ],
+          "skills": [
+            "Ottima conoscenza delle tecnologie web moderne (React, CSS, JavaScript)",
+            "Esperienza nello sviluppo di applicazioni frontend",
+            "Creatività nel design e nella user experience",
+            "Capacità di lavorare in team e di gestire progetti in autonomia",
+            "Eccellente attitudine alla risoluzione dei problemi"
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS",
+          "company": "Azienda XYZ",
+          "company-details": "Tech Solutions, un'agenzia innovativa nel settore dello Software Development, è alla ricerca di un/a Sviluppatore Frontend altamente motivato e creativo per unirsi al loro team dinamico con sede a Milano. Se sei appassionato di tecnologia e desideri lavorare in un ambiente stimolante, questa potrebbe essere l'opportunità ideale per te!",
+          "tasks": [
+            "Come sviluppatore software, sarai coinvolto nella progettazione e implementazione di applicazioni scalabili e performanti. Collaborerai strettamente con i team di prodotto e design per tradurre le esigenze aziendali in soluzioni tecnologiche. Ti occuperai della scrittura di codice pulito e ben strutturato, implementando nuove funzionalità, risolvendo bug e ottimizzando le performance. Gestirai l'integrazione di nuove tecnologie, supportando l'intero ciclo di vita del software, dalla fase di sviluppo alla distribuzione. Inoltre, parteciperai alla definizione delle best practices e contribuirai all'evoluzione continua del prodotto, sempre con un focus sulla qualità del codice e sull'esperienza utente finale."
+          ],
+          "welfare": [
+            "Assicurazione sanitaria completa",
+            "Bonus annuale per la formazione professionale",
+            "Flessibilità lavorativa con possibilità di smart working",
+            "Piano pensionistico integrativo"
+          ],
+          "skills": [
+            "Ottima conoscenza delle tecnologie web moderne (React, CSS, JavaScript)",
+            "Esperienza nello sviluppo di applicazioni frontend",
+            "Creatività nel design e nella user experience",
+            "Capacità di lavorare in team e di gestire progetti in autonomia",
+            "Eccellente attitudine alla risoluzione dei problemi"
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS",
+          "company": "Azienda XYZ",
+          "company-details": "Tech Solutions, un'agenzia innovativa nel settore dello Software Development, è alla ricerca di un/a Sviluppatore Frontend altamente motivato e creativo per unirsi al loro team dinamico con sede a Milano. Se sei appassionato di tecnologia e desideri lavorare in un ambiente stimolante, questa potrebbe essere l'opportunità ideale per te!",
+          "tasks": [
+            "Come sviluppatore software, sarai coinvolto nella progettazione e implementazione di applicazioni scalabili e performanti. Collaborerai strettamente con i team di prodotto e design per tradurre le esigenze aziendali in soluzioni tecnologiche. Ti occuperai della scrittura di codice pulito e ben strutturato, implementando nuove funzionalità, risolvendo bug e ottimizzando le performance. Gestirai l'integrazione di nuove tecnologie, supportando l'intero ciclo di vita del software, dalla fase di sviluppo alla distribuzione. Inoltre, parteciperai alla definizione delle best practices e contribuirai all'evoluzione continua del prodotto, sempre con un focus sulla qualità del codice e sull'esperienza utente finale."
+          ],
+          "welfare": [
+            "Assicurazione sanitaria completa",
+            "Bonus annuale per la formazione professionale",
+            "Flessibilità lavorativa con possibilità di smart working",
+            "Piano pensionistico integrativo"
+          ],
+          "skills": [
+            "Ottima conoscenza delle tecnologie web moderne (React, CSS, JavaScript)",
+            "Esperienza nello sviluppo di applicazioni frontend",
+            "Creatività nel design e nella user experience",
+            "Capacità di lavorare in team e di gestire progetti in autonomia",
+            "Eccellente attitudine alla risoluzione dei problemi"
+          ]
+        }
+      ],
+      "rejectedJobs": [
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS",
+          "company": "Azienda XYZ",
+          "company-details": "Tech Solutions, un'agenzia innovativa nel settore dello Software Development, è alla ricerca di un/a Sviluppatore Frontend altamente motivato e creativo per unirsi al loro team dinamico con sede a Milano. Se sei appassionato di tecnologia e desideri lavorare in un ambiente stimolante, questa potrebbe essere l'opportunità ideale per te!",
+          "tasks": [
+            "Come sviluppatore software, sarai coinvolto nella progettazione e implementazione di applicazioni scalabili e performanti. Collaborerai strettamente con i team di prodotto e design per tradurre le esigenze aziendali in soluzioni tecnologiche. Ti occuperai della scrittura di codice pulito e ben strutturato, implementando nuove funzionalità, risolvendo bug e ottimizzando le performance. Gestirai l'integrazione di nuove tecnologie, supportando l'intero ciclo di vita del software, dalla fase di sviluppo alla distribuzione. Inoltre, parteciperai alla definizione delle best practices e contribuirai all'evoluzione continua del prodotto, sempre con un focus sulla qualità del codice e sull'esperienza utente finale."
+          ],
+          "welfare": [
+            "Assicurazione sanitaria completa",
+            "Bonus annuale per la formazione professionale",
+            "Flessibilità lavorativa con possibilità di smart working",
+            "Piano pensionistico integrativo"
+          ],
+          "skills": [
+            "Ottima conoscenza delle tecnologie web moderne (React, CSS, JavaScript)",
+            "Esperienza nello sviluppo di applicazioni frontend",
+            "Creatività nel design e nella user experience",
+            "Capacità di lavorare in team e di gestire progetti in autonomia",
+            "Eccellente attitudine alla risoluzione dei problemi"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "UI/UX Designer",
+          "description": "Esperienza con Figma e Adobe XD",
+          "company": "Azienda 123",
+          "company-details": "Azienda 123, un brand in crescita nel settore del design digitale, è alla ricerca di un UI/UX Designer creativo per trasformare le idee in esperienze utente straordinarie. Se hai una passione per la progettazione interattiva e l'innovazione, unisciti al nostro team!",
+          "tasks": [
+            "Progettare interfacce utente moderne e intuitive",
+            "Creare prototipi interattivi utilizzando Figma e Adobe XD",
+            "Collaborare con i team di sviluppo per implementare soluzioni di design",
+            "Effettuare test di usabilità e ottimizzare l'esperienza utente",
+            "Sviluppare wireframe e mockup per nuovi progetti"
+          ],
+          "welfare": [
+            "Assicurazione sanitaria privata",
+            "Accesso a corsi di aggiornamento professionale",
+            "Flessibilità oraria e possibilità di lavoro da remoto",
+            "Sconto per prodotti tecnologici"
+          ],
+          "skills": [
+            "Esperienza consolidata con Figma e Adobe XD",
+            "Capacità di progettare esperienze utente funzionali e accattivanti",
+            "Attitudine alla collaborazione cross-team con sviluppatori e marketing",
+            "Passione per il design e l'innovazione",
+            "Capacità di gestire progetti in modo autonomo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Giada",
+      "surname": "Pappalardo",
+      "email": "pappalardo@example.com",
+      "password": "password2",
+      "job": "Analista Funzionale ",
+      "token": "user-1743749334043",
+      "acceptedJobs": [
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS"
+        },
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS",
+          "company": "Azienda XYZ",
+          "company-details": "Tech Solutions, un'agenzia innovativa nel settore dello Software Development, è alla ricerca di un/a Sviluppatore Frontend altamente motivato e creativo per unirsi al loro team dinamico con sede a Milano. Se sei appassionato di tecnologia e desideri lavorare in un ambiente stimolante, questa potrebbe essere l'opportunità ideale per te!",
+          "tasks": [
+            "Come sviluppatore software, sarai coinvolto nella progettazione e implementazione di applicazioni scalabili e performanti. Collaborerai strettamente con i team di prodotto e design per tradurre le esigenze aziendali in soluzioni tecnologiche. Ti occuperai della scrittura di codice pulito e ben strutturato, implementando nuove funzionalità, risolvendo bug e ottimizzando le performance. Gestirai l'integrazione di nuove tecnologie, supportando l'intero ciclo di vita del software, dalla fase di sviluppo alla distribuzione. Inoltre, parteciperai alla definizione delle best practices e contribuirai all'evoluzione continua del prodotto, sempre con un focus sulla qualità del codice e sull'esperienza utente finale."
+          ],
+          "welfare": [
+            "Assicurazione sanitaria completa",
+            "Bonus annuale per la formazione professionale",
+            "Flessibilità lavorativa con possibilità di smart working",
+            "Piano pensionistico integrativo"
+          ],
+          "skills": [
+            "Ottima conoscenza delle tecnologie web moderne (React, CSS, JavaScript)",
+            "Esperienza nello sviluppo di applicazioni frontend",
+            "Creatività nel design e nella user experience",
+            "Capacità di lavorare in team e di gestire progetti in autonomia",
+            "Eccellente attitudine alla risoluzione dei problemi"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Sviluppatore Backend",
+          "description": "Esperienza con Node.js e MongoDB",
+          "company": "Azienda ABC",
+          "company-details": "Azienda ABC, leader nel settore delle soluzioni cloud, sta cercando uno sviluppatore backend esperto per sviluppare e mantenere piattaforme scalabili. Se hai esperienza con Node.js e MongoDB, sei la persona giusta per contribuire a progetti innovativi!",
+          "tasks": [
+            "Sviluppare soluzioni backend robuste e scalabili",
+            "Collaborare con il team frontend per integrare applicazioni",
+            "Ottimizzare la gestione dei dati attraverso l'uso di MongoDB",
+            "Sviluppare API RESTful per la gestione dei dati",
+            "Partecipare alla definizione dell'architettura delle soluzioni software"
+          ],
+          "welfare": [
+            "Assicurazione sanitaria integrativa",
+            "Buoni pasto e agevolazioni per la palestra",
+            "Possibilità di partecipare a eventi tech e conferenze"
+          ],
+          "skills": [
+            "Solida esperienza con Node.js e MongoDB",
+            "Conoscenza approfondita della progettazione di API e architetture software",
+            "Capacità di scrivere codice pulito, scalabile e testato",
+            "Orientamento alla collaborazione e al lavoro in team",
+            "Eccellenti capacità di problem solving"
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS",
+          "company": "Azienda XYZ",
+          "company-details": "Tech Solutions, un'agenzia innovativa nel settore dello Software Development, è alla ricerca di un/a Sviluppatore Frontend altamente motivato e creativo per unirsi al loro team dinamico con sede a Milano. Se sei appassionato di tecnologia e desideri lavorare in un ambiente stimolante, questa potrebbe essere l'opportunità ideale per te!",
+          "tasks": [
+            "Come sviluppatore software, sarai coinvolto nella progettazione e implementazione di applicazioni scalabili e performanti. Collaborerai strettamente con i team di prodotto e design per tradurre le esigenze aziendali in soluzioni tecnologiche. Ti occuperai della scrittura di codice pulito e ben strutturato, implementando nuove funzionalità, risolvendo bug e ottimizzando le performance. Gestirai l'integrazione di nuove tecnologie, supportando l'intero ciclo di vita del software, dalla fase di sviluppo alla distribuzione. Inoltre, parteciperai alla definizione delle best practices e contribuirai all'evoluzione continua del prodotto, sempre con un focus sulla qualità del codice e sull'esperienza utente finale."
+          ],
+          "welfare": [
+            "Assicurazione sanitaria completa",
+            "Bonus annuale per la formazione professionale",
+            "Flessibilità lavorativa con possibilità di smart working",
+            "Piano pensionistico integrativo"
+          ],
+          "skills": [
+            "Ottima conoscenza delle tecnologie web moderne (React, CSS, JavaScript)",
+            "Esperienza nello sviluppo di applicazioni frontend",
+            "Creatività nel design e nella user experience",
+            "Capacità di lavorare in team e di gestire progetti in autonomia",
+            "Eccellente attitudine alla risoluzione dei problemi"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Sviluppatore Backend",
+          "description": "Esperienza con Node.js e MongoDB",
+          "company": "Azienda ABC",
+          "company-details": "Azienda ABC, leader nel settore delle soluzioni cloud, sta cercando uno sviluppatore backend esperto per sviluppare e mantenere piattaforme scalabili. Se hai esperienza con Node.js e MongoDB, sei la persona giusta per contribuire a progetti innovativi!",
+          "tasks": [
+            "Sviluppare soluzioni backend robuste e scalabili",
+            "Collaborare con il team frontend per integrare applicazioni",
+            "Ottimizzare la gestione dei dati attraverso l'uso di MongoDB",
+            "Sviluppare API RESTful per la gestione dei dati",
+            "Partecipare alla definizione dell'architettura delle soluzioni software"
+          ],
+          "welfare": [
+            "Assicurazione sanitaria integrativa",
+            "Buoni pasto e agevolazioni per la palestra",
+            "Possibilità di partecipare a eventi tech e conferenze"
+          ],
+          "skills": [
+            "Solida esperienza con Node.js e MongoDB",
+            "Conoscenza approfondita della progettazione di API e architetture software",
+            "Capacità di scrivere codice pulito, scalabile e testato",
+            "Orientamento alla collaborazione e al lavoro in team",
+            "Eccellenti capacità di problem solving"
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS",
+          "company": "Azienda XYZ",
+          "company-details": "Tech Solutions, un'agenzia innovativa nel settore dello Software Development, è alla ricerca di un/a Sviluppatore Frontend altamente motivato e creativo per unirsi al loro team dinamico con sede a Milano. Se sei appassionato di tecnologia e desideri lavorare in un ambiente stimolante, questa potrebbe essere l'opportunità ideale per te!",
+          "tasks": [
+            "Come sviluppatore software, sarai coinvolto nella progettazione e implementazione di applicazioni scalabili e performanti. Collaborerai strettamente con i team di prodotto e design per tradurre le esigenze aziendali in soluzioni tecnologiche. Ti occuperai della scrittura di codice pulito e ben strutturato, implementando nuove funzionalità, risolvendo bug e ottimizzando le performance. Gestirai l'integrazione di nuove tecnologie, supportando l'intero ciclo di vita del software, dalla fase di sviluppo alla distribuzione. Inoltre, parteciperai alla definizione delle best practices e contribuirai all'evoluzione continua del prodotto, sempre con un focus sulla qualità del codice e sull'esperienza utente finale."
+          ],
+          "welfare": [
+            "Assicurazione sanitaria completa",
+            "Bonus annuale per la formazione professionale",
+            "Flessibilità lavorativa con possibilità di smart working",
+            "Piano pensionistico integrativo"
+          ],
+          "skills": [
+            "Ottima conoscenza delle tecnologie web moderne (React, CSS, JavaScript)",
+            "Esperienza nello sviluppo di applicazioni frontend",
+            "Creatività nel design e nella user experience",
+            "Capacità di lavorare in team e di gestire progetti in autonomia",
+            "Eccellente attitudine alla risoluzione dei problemi"
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS",
+          "company": "Azienda XYZ",
+          "company-details": "Tech Solutions, un'agenzia innovativa nel settore dello Software Development, è alla ricerca di un/a Sviluppatore Frontend altamente motivato e creativo per unirsi al loro team dinamico con sede a Milano. Se sei appassionato di tecnologia e desideri lavorare in un ambiente stimolante, questa potrebbe essere l'opportunità ideale per te!",
+          "tasks": [
+            "Come sviluppatore software, sarai coinvolto nella progettazione e implementazione di applicazioni scalabili e performanti. Collaborerai strettamente con i team di prodotto e design per tradurre le esigenze aziendali in soluzioni tecnologiche. Ti occuperai della scrittura di codice pulito e ben strutturato, implementando nuove funzionalità, risolvendo bug e ottimizzando le performance. Gestirai l'integrazione di nuove tecnologie, supportando l'intero ciclo di vita del software, dalla fase di sviluppo alla distribuzione. Inoltre, parteciperai alla definizione delle best practices e contribuirai all'evoluzione continua del prodotto, sempre con un focus sulla qualità del codice e sull'esperienza utente finale."
+          ],
+          "welfare": [
+            "Assicurazione sanitaria completa",
+            "Bonus annuale per la formazione professionale",
+            "Flessibilità lavorativa con possibilità di smart working",
+            "Piano pensionistico integrativo"
+          ],
+          "skills": [
+            "Ottima conoscenza delle tecnologie web moderne (React, CSS, JavaScript)",
+            "Esperienza nello sviluppo di applicazioni frontend",
+            "Creatività nel design e nella user experience",
+            "Capacità di lavorare in team e di gestire progetti in autonomia",
+            "Eccellente attitudine alla risoluzione dei problemi"
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS",
+          "company": "Azienda XYZ",
+          "company-details": "Tech Solutions, un'agenzia innovativa nel settore dello Software Development, è alla ricerca di un/a Sviluppatore Frontend altamente motivato e creativo per unirsi al loro team dinamico con sede a Milano. Se sei appassionato di tecnologia e desideri lavorare in un ambiente stimolante, questa potrebbe essere l'opportunità ideale per te!",
+          "tasks": [
+            "Come sviluppatore software, sarai coinvolto nella progettazione e implementazione di applicazioni scalabili e performanti. Collaborerai strettamente con i team di prodotto e design per tradurre le esigenze aziendali in soluzioni tecnologiche. Ti occuperai della scrittura di codice pulito e ben strutturato, implementando nuove funzionalità, risolvendo bug e ottimizzando le performance. Gestirai l'integrazione di nuove tecnologie, supportando l'intero ciclo di vita del software, dalla fase di sviluppo alla distribuzione. Inoltre, parteciperai alla definizione delle best practices e contribuirai all'evoluzione continua del prodotto, sempre con un focus sulla qualità del codice e sull'esperienza utente finale."
+          ],
+          "welfare": [
+            "Assicurazione sanitaria completa",
+            "Bonus annuale per la formazione professionale",
+            "Flessibilità lavorativa con possibilità di smart working",
+            "Piano pensionistico integrativo"
+          ],
+          "skills": [
+            "Ottima conoscenza delle tecnologie web moderne (React, CSS, JavaScript)",
+            "Esperienza nello sviluppo di applicazioni frontend",
+            "Creatività nel design e nella user experience",
+            "Capacità di lavorare in team e di gestire progetti in autonomia",
+            "Eccellente attitudine alla risoluzione dei problemi"
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS",
+          "company": "Azienda XYZ",
+          "company-details": "Tech Solutions, un'agenzia innovativa nel settore dello Software Development, è alla ricerca di un/a Sviluppatore Frontend altamente motivato e creativo per unirsi al loro team dinamico con sede a Milano. Se sei appassionato di tecnologia e desideri lavorare in un ambiente stimolante, questa potrebbe essere l'opportunità ideale per te!",
+          "tasks": [
+            "Come sviluppatore software, sarai coinvolto nella progettazione e implementazione di applicazioni scalabili e performanti. Collaborerai strettamente con i team di prodotto e design per tradurre le esigenze aziendali in soluzioni tecnologiche. Ti occuperai della scrittura di codice pulito e ben strutturato, implementando nuove funzionalità, risolvendo bug e ottimizzando le performance. Gestirai l'integrazione di nuove tecnologie, supportando l'intero ciclo di vita del software, dalla fase di sviluppo alla distribuzione. Inoltre, parteciperai alla definizione delle best practices e contribuirai all'evoluzione continua del prodotto, sempre con un focus sulla qualità del codice e sull'esperienza utente finale."
+          ],
+          "welfare": [
+            "Assicurazione sanitaria completa",
+            "Bonus annuale per la formazione professionale",
+            "Flessibilità lavorativa con possibilità di smart working",
+            "Piano pensionistico integrativo"
+          ],
+          "skills": [
+            "Ottima conoscenza delle tecnologie web moderne (React, CSS, JavaScript)",
+            "Esperienza nello sviluppo di applicazioni frontend",
+            "Creatività nel design e nella user experience",
+            "Capacità di lavorare in team e di gestire progetti in autonomia",
+            "Eccellente attitudine alla risoluzione dei problemi"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Sviluppatore Backend",
+          "description": "Esperienza con Node.js e MongoDB",
+          "company": "Azienda ABC",
+          "company-details": "Azienda ABC, leader nel settore delle soluzioni cloud, sta cercando uno sviluppatore backend esperto per sviluppare e mantenere piattaforme scalabili. Se hai esperienza con Node.js e MongoDB, sei la persona giusta per contribuire a progetti innovativi!",
+          "tasks": [
+            "Sviluppare soluzioni backend robuste e scalabili",
+            "Collaborare con il team frontend per integrare applicazioni",
+            "Ottimizzare la gestione dei dati attraverso l'uso di MongoDB",
+            "Sviluppare API RESTful per la gestione dei dati",
+            "Partecipare alla definizione dell'architettura delle soluzioni software"
+          ],
+          "welfare": [
+            "Assicurazione sanitaria integrativa",
+            "Buoni pasto e agevolazioni per la palestra",
+            "Possibilità di partecipare a eventi tech e conferenze"
+          ],
+          "skills": [
+            "Solida esperienza con Node.js e MongoDB",
+            "Conoscenza approfondita della progettazione di API e architetture software",
+            "Capacità di scrivere codice pulito, scalabile e testato",
+            "Orientamento alla collaborazione e al lavoro in team",
+            "Eccellenti capacità di problem solving"
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Sviluppatore Frontend",
+          "description": "Esperienza con React e CSS",
+          "company": "Azienda XYZ",
+          "company-details": "Tech Solutions, un'agenzia innovativa nel settore dello Software Development, è alla ricerca di un/a Sviluppatore Frontend altamente motivato e creativo per unirsi al loro team dinamico con sede a Milano. Se sei appassionato di tecnologia e desideri lavorare in un ambiente stimolante, questa potrebbe essere l'opportunità ideale per te!",
+          "tasks": [
+            "Come sviluppatore software, sarai coinvolto nella progettazione e implementazione di applicazioni scalabili e performanti. Collaborerai strettamente con i team di prodotto e design per tradurre le esigenze aziendali in soluzioni tecnologiche. Ti occuperai della scrittura di codice pulito e ben strutturato, implementando nuove funzionalità, risolvendo bug e ottimizzando le performance. Gestirai l'integrazione di nuove tecnologie, supportando l'intero ciclo di vita del software, dalla fase di sviluppo alla distribuzione. Inoltre, parteciperai alla definizione delle best practices e contribuirai all'evoluzione continua del prodotto, sempre con un focus sulla qualità del codice e sull'esperienza utente finale."
+          ],
+          "welfare": [
+            "Assicurazione sanitaria completa",
+            "Bonus annuale per la formazione professionale",
+            "Flessibilità lavorativa con possibilità di smart working",
+            "Piano pensionistico integrativo"
+          ],
+          "skills": [
+            "Ottima conoscenza delle tecnologie web moderne (React, CSS, JavaScript)",
+            "Esperienza nello sviluppo di applicazioni frontend",
+            "Creatività nel design e nella user experience",
+            "Capacità di lavorare in team e di gestire progetti in autonomia",
+            "Eccellente attitudine alla risoluzione dei problemi"
+          ]
+        }
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Tech Solutions",
+      "email": "info@techsolutions.com",
+      "password": "companypass1",
+      "industry": "Software Development",
+      "token": "company-1743671376546",
+      "rejectedJobs": []
+    },
+    {
+      "id": 2,
+      "name": "Data Insights",
+      "email": "contact@datainsights.com",
+      "password": "companypass2",
+      "industry": "Data Analysis",
+      "token": "company-3746541291267",
+      "rejectedJobs": []
+    },
+    {
+      "id": 3,
+      "name": "Innovatech",
+      "email": "hello@innovatech.com",
+      "password": "companypass3",
+      "industry": "Artificial Intelligence",
+      "token": "company-6949541291267",
+      "rejectedJobs": []
+    },
+    {
+      "id": 4,
+      "name": "Design Masters",
+      "email": "support@designmasters.com",
+      "password": "companypass4",
+      "industry": "UX/UI Design",
+      "token": "company-1743541293548",
+      "rejectedJobs": []
+    },
+    {
+      "id": 5,
+      "name": "PM Consultants",
+      "email": "services@pmconsultants.com",
+      "password": "companypass5",
+      "industry": "Project Management",
+      "token": "company-1743544858267",
+      "rejectedJobs": []
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Sviluppatore Frontend",
+      "description": "Esperienza con React e CSS",
+      "company": "Azienda XYZ",
+      "company-details": "Tech Solutions, un'agenzia innovativa nel settore dello Software Development, è alla ricerca di un/a Sviluppatore Frontend altamente motivato e creativo per unirsi al loro team dinamico con sede a Milano. Se sei appassionato di tecnologia e desideri lavorare in un ambiente stimolante, questa potrebbe essere l'opportunità ideale per te!",
+      "tasks": [
+        "Come sviluppatore software, sarai coinvolto nella progettazione e implementazione di applicazioni scalabili e performanti. Collaborerai strettamente con i team di prodotto e design per tradurre le esigenze aziendali in soluzioni tecnologiche. Ti occuperai della scrittura di codice pulito e ben strutturato, implementando nuove funzionalità, risolvendo bug e ottimizzando le performance. Gestirai l'integrazione di nuove tecnologie, supportando l'intero ciclo di vita del software, dalla fase di sviluppo alla distribuzione. Inoltre, parteciperai alla definizione delle best practices e contribuirai all'evoluzione continua del prodotto, sempre con un focus sulla qualità del codice e sull'esperienza utente finale."
+      ],
+      "welfare": [
+        "Assicurazione sanitaria completa",
+        "Bonus annuale per la formazione professionale",
+        "Flessibilità lavorativa con possibilità di smart working",
+        "Piano pensionistico integrativo"
+      ],
+      "skills": [
+        "Ottima conoscenza delle tecnologie web moderne (React, CSS, JavaScript)",
+        "Esperienza nello sviluppo di applicazioni frontend",
+        "Creatività nel design e nella user experience",
+        "Capacità di lavorare in team e di gestire progetti in autonomia",
+        "Eccellente attitudine alla risoluzione dei problemi"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sviluppatore Backend",
+      "description": "Esperienza con Node.js e MongoDB",
+      "company": "Azienda ABC",
+      "company-details": "Azienda ABC, leader nel settore delle soluzioni cloud, sta cercando uno sviluppatore backend esperto per sviluppare e mantenere piattaforme scalabili. Se hai esperienza con Node.js e MongoDB, sei la persona giusta per contribuire a progetti innovativi!",
+      "tasks": [
+        "Sviluppare soluzioni backend robuste e scalabili",
+        "Collaborare con il team frontend per integrare applicazioni",
+        "Ottimizzare la gestione dei dati attraverso l'uso di MongoDB",
+        "Sviluppare API RESTful per la gestione dei dati",
+        "Partecipare alla definizione dell'architettura delle soluzioni software"
+      ],
+      "welfare": [
+        "Assicurazione sanitaria integrativa",
+        "Buoni pasto e agevolazioni per la palestra",
+        "Possibilità di partecipare a eventi tech e conferenze"
+      ],
+      "skills": [
+        "Solida esperienza con Node.js e MongoDB",
+        "Conoscenza approfondita della progettazione di API e architetture software",
+        "Capacità di scrivere codice pulito, scalabile e testato",
+        "Orientamento alla collaborazione e al lavoro in team",
+        "Eccellenti capacità di problem solving"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Designer",
+      "description": "Esperienza con Figma e Adobe XD",
+      "company": "Azienda 123",
+      "company-details": "Azienda 123, un brand in crescita nel settore del design digitale, è alla ricerca di un UI/UX Designer creativo per trasformare le idee in esperienze utente straordinarie. Se hai una passione per la progettazione interattiva e l'innovazione, unisciti al nostro team!",
+      "tasks": [
+        "Progettare interfacce utente moderne e intuitive",
+        "Creare prototipi interattivi utilizzando Figma e Adobe XD",
+        "Collaborare con i team di sviluppo per implementare soluzioni di design",
+        "Effettuare test di usabilità e ottimizzare l'esperienza utente",
+        "Sviluppare wireframe e mockup per nuovi progetti"
+      ],
+      "welfare": [
+        "Assicurazione sanitaria privata",
+        "Accesso a corsi di aggiornamento professionale",
+        "Flessibilità oraria e possibilità di lavoro da remoto",
+        "Sconto per prodotti tecnologici"
+      ],
+      "skills": [
+        "Esperienza consolidata con Figma e Adobe XD",
+        "Capacità di progettare esperienze utente funzionali e accattivanti",
+        "Attitudine alla collaborazione cross-team con sviluppatori e marketing",
+        "Passione per il design e l'innovazione",
+        "Capacità di gestire progetti in modo autonomo"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Stociccio",
+      "description": "Esperienza con Figma e Adobe XD",
+      "company": "Azienda 123",
+      "company-details": "Azienda 123 è alla ricerca di un professionista versatile, pronto a gestire vari aspetti del design e della user experience. Se hai esperienza con Figma e Adobe XD, questa potrebbe essere l'occasione giusta per te!",
+      "tasks": [
+        "Sviluppare soluzioni creative per il design di prodotti",
+        "Collaborare alla realizzazione di UI per diverse piattaforme",
+        "Supportare i team di sviluppo durante il processo di progettazione",
+        "Creare esperienze utente visivamente accattivanti e funzionali",
+        "Assicurarti che le soluzioni siano facili da usare e ottimizzate per i dispositivi"
+      ],
+      "welfare": [
+        "Assicurazione sanitaria",
+        "Possibilità di partecipare a workshop creativi",
+        "Rimborso spese per la partecipazione a conferenze di design"
+      ],
+      "skills": [
+        "Ottima conoscenza degli strumenti di design (Figma, Adobe XD)",
+        "Capacità di adattarsi velocemente a nuovi progetti",
+        "Buona comprensione delle best practice di user experience",
+        "Attitudine alla gestione dei dettagli e perfezionismo",
+        "Capacità di comunicare in modo chiaro e preciso con il team"
+      ]
+    }
+  ]
+}

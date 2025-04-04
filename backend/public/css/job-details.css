@@ -1,0 +1,87 @@
+/* Aggiunge uno stile di base per il corpo della pagina */
+body {
+    font-family: Arial, sans-serif; /* Imposta il font per il corpo del documento */
+    background-color: #f4f4f9; /* Colore di sfondo chiaro per l'intera pagina */
+    margin: 0; /* Rimuove i margini predefiniti */
+    padding: 0; /* Rimuove i padding predefiniti */
+}
+
+/* Stile per l'intestazione (header) della pagina */
+header {
+    background: linear-gradient(135deg, #2dafc9, #a2b7ef);
+    /*background-color: #394ec9; Colore verde per lo sfondo dell'intestazione */
+    color: white; /* Colore del testo dell'intestazione */
+    padding: 20px; /* Spaziatura interna dell'intestazione */
+    text-align: center; /* Centra il testo nell'intestazione */
+}
+
+/* Stile per il titolo principale */
+h1 {
+    margin: 0; /* Rimuove il margine predefinito */
+    font-size: 2em; /* Imposta la dimensione del font */
+}
+
+/* Stile per il contenuto principale (main) della pagina */
+main {
+    padding: 20px; /* Aggiunge padding attorno al contenuto principale */
+}
+
+/* Contenitore per i dettagli del lavoro */
+#job-details {
+    background-color: white; /* Colore di sfondo bianco per il contenitore dei dettagli */
+    border-radius: 8px; /* Rende gli angoli del contenitore arrotondati */
+    padding: 20px; /* Spaziatura interna */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge una leggera ombra per creare un effetto di profondità */
+    max-width: 600px; /* Limita la larghezza massima del contenitore */
+    margin: 0 auto; /* Centra il contenitore orizzontalmente */
+}
+
+/* Stile per i titoli secondari (h2) all'interno di job-details */
+#job-title {
+    font-size: 1.8em; /* Imposta una dimensione più grande per il titolo del lavoro */
+    color: #333; /* Colore del testo */
+    margin-bottom: 15px; /* Spazio inferiore */
+}
+
+/* Stile per i paragrafi contenenti le informazioni del lavoro */
+p {
+    font-size: 1em; /* Dimensione del font per i paragrafi */
+    color: #555; /* Colore del testo */
+    margin: 10px 0; /* Aggiunge spazio sopra e sotto i paragrafi */
+}
+
+/* Colore per il testo delle etichette (es. Azienda, Mansione, Welfare) */
+strong {
+    color: #394ec9; /* Colore verde per le etichette */
+}
+
+/* Aggiunge uno stile per il bottone di ritorno */
+#back-btn {
+    background-color: #2dafc9;
+    color: white; /* Colore del testo bianco */
+    padding: 10px 20px; /* Padding attorno al bottone */
+    border: none; /* Rimuove il bordo del bottone */
+    border-radius: 5px; /* Angoli arrotondati per il bottone */
+    cursor: pointer; /* Cambia il cursore per indicare che è cliccabile */
+    font-size: 1em; /* Dimensione del font */
+    display: block; /* Imposta il bottone come elemento a blocco */
+    width: 200px; /* Imposta una larghezza fissa per il bottone */
+    margin: 20px auto; /* Centra il bottone orizzontalmente e aggiunge margine sopra e sotto */
+}
+
+/* Cambia il colore del bottone al passaggio del mouse */
+#back-btn:hover {
+    background-color: #394ec9; /* Colore leggermente più scuro al passaggio del mouse */
+}
+
+/* Nuovi stili per le informazioni aggiuntive */
+#job-mansione, #job-welfare {
+    font-size: 1em; /* Imposta la dimensione del font per le nuove informazioni */
+    color: #555; /* Colore del testo */
+    margin: 10px 0; /* Spazio sopra e sotto */
+}
+
+/* Aggiunge un colore diverso per le nuove etichette (Mansione, Welfare) */
+#job-mansione strong, #job-welfare strong {
+    color: #007BFF; /* Colore blu per le nuove etichette */
+}
